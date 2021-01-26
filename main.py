@@ -5,7 +5,7 @@
 """
 import s, time
 
-x = time.time_ns()
+x1 = time.time_ns()
 
 
 def print_hi():
@@ -58,4 +58,5 @@ print('My name' + name + ' my id '+id)
 print('hi '*5)
 s = 'Hello world!'
 print(s[0])
-print(str((time.time_ns() - x) / 1000000), "ms")
+print(s[-1])
+print(str((time.time_ns() - x1) / 1000000), "ms")
