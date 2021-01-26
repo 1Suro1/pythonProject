@@ -44,19 +44,25 @@ sdsd
 'lol'\
 '''
 print(test)
-s=r'C:\megahucker\new.txt'
+s = r'C:\megahucker\new.txt'
 print(s)
 s = 'te' 'st'
 print(s)
 s1 = 'hello,'
 s2 = 'world'
-s3 = s1+s2
+s3 = s1 + s2 #Конкатенация
 print(s3)
 name = 'root'
 id = str(0)
-print('My name' + name + ' my id '+id)
-print('hi '*5)
+print('My name' + name + ' my id ' + id)
+print('hi ' * 5)
 s = 'Hello world!'
 print(s[0])
-print(s[-1])
+print(s[-1])  # len-1
+# s[0] = 'D' не изменяемая
+#[X:Y:Z] - x-начало y-конец z-шаг среза
+print(s[0:12])
+print(s[0:12:2])
+print(s[::-1])
+
 print(str((time.time_ns() - x1) / 1000000), "ms")
